@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 100px;
+  border: 30px solid pink;
+  padding: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.header {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.logo img {
+  width: 250px;
+  height: 200px;
+}
+
+.address {
+  width: 250px;
+  font-size: 18px;
+}
+
+.address p {
+  display: flex;
+}
+
+.address p i {
+  flex: 1;
+}
+
+.address p span {
+  flex: 10;
+}
+
+.contact {
+  width: 250px;
+  font-size: 18px;
+}
+
+.contact p {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.contact p i {
+  flex: 1;
+}
+
+.contact p span {
+  flex: 10;
+}
+
+.passport p {
+  width: 200px;
+  height: 230px;
+  background-color: pink;
+  border: 3px solid darkred;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  border-bottom: 3px solid black;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.title h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+  position: absolute;
+  /* bottom: 0; */
+  top: -50px;
+  left: 20%;
+}
+
+.body h3 {
+  font-size: 25px;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-body {
+  background-color:antiquewhite;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group input[type=text], .form-group input[type=date] {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: 0px 1px 3px black;
+}
+
+.form-group.divided {
+  display: flex;
+  gap: 20px;
+}
+
+.inner-group {
+  width: 50%;
+}
+
+.radio {
+  display: flex;
+  gap: 20px;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  gap: 10px;
+  padding-top: 10px;
+}
