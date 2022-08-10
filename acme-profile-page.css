@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: blue;
+  height: 100vh;
+  display: flex;
+}
+
+.sidebar-icons {
+  background-color: black;
+  color: white;
+  flex: 1;
+}
+
+.sidebar-icons .main-icon {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.sidebar-icons .icons i {
+  font-size: 20px;
+  padding: 6px;
+  cursor: pointer;
+  color: lightgray;
+}
+
+.sidebar-icons .icons i:hover {
+  background-color: #c0791b;
+}
+
+.sidebar-icons .icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.content-wrapper {
+  background-color: white;
+  flex: 15;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.header h2 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.header button {
+  height: 30px;
+  padding: 5px 20px;
+  background-color: #c0791b;
+  color: white;
+  border-radius: 20px;
+}
+
+.search-icons {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-icons input {
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-right: 20px;
+  background-color: transparent;
+  border: 1px solid gray;
+}
+
+.search-icons i {
+  margin-right: 20px;
+}
+
+.search-icons i.fa.fa-search {
+  position: absolute;
+  right: 240px;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.settings img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.main {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topbar h3 {
+  font-size: 20px;
+}
+
+.topbar-buttons button {
+  border: none;
+  border: 1px solid gray;
+  padding: 5px 15px;
+  background-color: #c0791b;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.topbar-buttons button:first-child {
+  background-color: white;
+  color: #c0791b;
+}
+
+.content-area {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.sidebar-nav {
+  /* background-color: blue; */
+  flex: 2;
+}
+
+.main-content {
+  background-color: red;
+  flex: 7;
+}
+
+.aside {
+  background-color: #fff;
+  flex: 3;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-nav a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 8px 13px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
