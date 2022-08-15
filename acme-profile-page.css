@@ -145,13 +145,12 @@
 }
 
 .main-content {
-  background-color: #eee;
-  flex: 7;
-}
-
 .aside {
   background-color: #fff;
   flex: 3;
+}
+  background-color: #eee;
+  flex: 7;
 }
 
 .sidebar-nav {
@@ -301,6 +300,131 @@
 
 .about-me .details {
   display: flex;
+}
+
+.aside {
+  background-color: transparent;
+  flex: 3;
+}
+
+.aside-top {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.aside-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-bottom: 1px solid #fdfafa;
+}
+
+.aside-header button {
+  color: #c0791b;
+  border: none;
+  background-color: transparent;
+}
+
+.aside-info p {
+  font-size: 12px;
+}
+
+.aside-info h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.aside-info img {
+  width: 100%;
+}
+
+.aside-badges {
+  background-color: white;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.badges-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-bottom: 1px solid #fdfafa;
+}
+
+.badges-header button {
+  color: #c0791b;
+  border: none;
+  background-color: transparent;
+}
+
+.badges {
+  margin-bottom: 20px;
+}
+
+.badges div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.badges div i {
+  flex: 1;
+  border: 1px solid black;
+  border-radius: 50%;
+  font-size: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badges div p {
+  flex: 5;
+}
+
+.badges-footer p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.badges-footer button {
+  text-align: left;
+  color: #c0791b;
+  border: none;
+  background-color: transparent;
+}
+
+.following {
+  background-color: white;
+  padding: 5px;
+}
+
+.following-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-bottom: 1px solid #fdfafa;
+}
+
+.following-header button {
+  color: #c0791b;
+  border: none;
+  background-color: transparent;
+}
+
+.following .images img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 
